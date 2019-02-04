@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name transistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/transistors.lib)(options "")(descr ""))
+  (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
+  (lib (name Jumper1)(type Legacy)(uri ${KIPRJMOD}/lib/libraries/Jumper.lib)(options "")(descr ""))
+  (lib (name NixieKitLib)(type Legacy)(uri $KIPRJMOD/lib/libraries/NixieKitLib.lib)(options "")(descr ""))
+  (lib (name russian-nixies)(type Legacy)(uri $KIPRJMOD/lib/libraries/russian-nixies.lib)(options "")(descr ""))
+  (lib (name Driver_LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_LED.lib)(options "")(descr ""))
+  (lib (name NixieModule)(type Legacy)(uri C:/Users/mtakao/Dropbox/Dev/KiCad/Nixie_Module_IN-14/lib/libraries/NixieModule.lib)(options "")(descr ""))
+)

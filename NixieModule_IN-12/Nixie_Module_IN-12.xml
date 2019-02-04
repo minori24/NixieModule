@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\mtakao\Dropbox\Dev\KiCad\Nixie_Module_IN-12\Nixie_Module_IN-12.sch</source>
+    <date>2018/12/23 18:04:04</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Nixie_Module_IN-12.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>15k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6A64B0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47u</value>
+      <footprint>C_SMD:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B5DDE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>C_SMD:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6B6351</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x02_Male" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6BFF15</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x02_Male" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6C02A2</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>IN-12B</value>
+      <footprint>NixieKitLib:IN-12B</footprint>
+      <libsource lib="NixieKitLib" part="IN-12B" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6D43AF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F7F44</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F8009</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F8093</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F810D</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F817C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F82DA</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F8359</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F83D9</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F8458</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7F84E2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FACAB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FB4A4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FB9AA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FBC40</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FBEBB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FC473</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FC50B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FC94D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FCB6D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7FCC87</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper1" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B80DE57</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper1" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B80DF76</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper1" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B80DFED</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper1" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B80E067</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>PCA9685PW</value>
+      <footprint>Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</datasheet>
+      <libsource lib="Driver_LED" part="PCA9685PW" description="16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B87EDB4</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C85A7</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8EB4E0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8EB538</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8EB592</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B916675</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SK6812mini</value>
+      <footprint>FidgetSpinner:SK6812MINI</footprint>
+      <libsource lib="FidgetSpinner_SK6812mini_v2-cache" part="SK6812mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B980119</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47u</value>
+      <footprint>C_SMD:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9866E4</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9FB96C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9FB973</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA01E66</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>R_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA0204E</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X07</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x07_Male" description="Generic connector, single row, 01x07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B997804</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="PCA9685PW">
+      <description>16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x9.7mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9685PW</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="LED0" type="output"/>
+        <pin num="7" name="LED1" type="output"/>
+        <pin num="8" name="LED2" type="output"/>
+        <pin num="9" name="LED3" type="output"/>
+        <pin num="10" name="LED4" type="output"/>
+        <pin num="11" name="LED5" type="output"/>
+        <pin num="12" name="LED6" type="output"/>
+        <pin num="13" name="LED7" type="output"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="LED8" type="output"/>
+        <pin num="16" name="LED9" type="output"/>
+        <pin num="17" name="LED10" type="output"/>
+        <pin num="18" name="LED11" type="output"/>
+        <pin num="19" name="LED12" type="output"/>
+        <pin num="20" name="LED13" type="output"/>
+        <pin num="21" name="LED14" type="output"/>
+        <pin num="22" name="LED15" type="output"/>
+        <pin num="23" name="~OE" type="input"/>
+        <pin num="24" name="A5" type="input"/>
+        <pin num="25" name="EXTCLK" type="input"/>
+        <pin num="26" name="SCL" type="input"/>
+        <pin num="27" name="SDA" type="BiDi"/>
+        <pin num="28" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FidgetSpinner_SK6812mini_v2-cache" part="SK6812mini">
+      <footprints>
+        <fp>SK6812*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SK6812mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper1" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NixieKitLib" part="IN-12B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IN-12B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANODE" type="input"/>
+        <pin num="2" name="CATHODE_0" type="input"/>
+        <pin num="3" name="CATHODE_9" type="input"/>
+        <pin num="4" name="CATHODE_8" type="input"/>
+        <pin num="5" name="CATHODE_7" type="input"/>
+        <pin num="6" name="CATHODE_6" type="input"/>
+        <pin num="7" name="CATHODE_5" type="input"/>
+        <pin num="8" name="CATHODE_4" type="input"/>
+        <pin num="9" name="CATHODE_3" type="input"/>
+        <pin num="10" name="CATHODE_2" type="input"/>
+        <pin num="11" name="CATHODE_1" type="input"/>
+        <pin num="12" name="CATHODE_DP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Driver_LED.lib</uri>
+    </library>
+    <library logical="FidgetSpinner_SK6812mini_v2-cache">
+      <uri>C:\Users\mtakao\Dropbox\Dev\KiCad\Nixie_Module_IN-12/lib/libraries/FidgetSpinner_SK6812mini_v2-cache.lib</uri>
+    </library>
+    <library logical="Jumper1">
+      <uri>C:\Users\mtakao\Dropbox\Dev\KiCad\Nixie_Module_IN-12/lib/libraries/Jumper.lib</uri>
+    </library>
+    <library logical="NixieKitLib">
+      <uri>C:\Users\mtakao\Dropbox\Dev\KiCad\Nixie_Module_IN-12/lib/libraries/NixieKitLib.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADDR_1">
+      <node ref="U3" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J1" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="3" name="/ADDR_0">
+      <node ref="JP1" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="4" name="/ADDR_2">
+      <node ref="U3" pin="3"/>
+      <node ref="R16" pin="1"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="5" name="/ADDR_3">
+      <node ref="R17" pin="1"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="6" name="/NIX_3_G">
+      <node ref="U3" pin="9"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="7" name="/NIX_2_G">
+      <node ref="U3" pin="8"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="8" name="/NIX_1_G">
+      <node ref="U3" pin="7"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="/NIX_0_G">
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="10" name="/I2C_SDA">
+      <node ref="U3" pin="27"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="11" name="/I2C_SCL">
+      <node ref="U3" pin="26"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="U3" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U3" pin="25"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="U3" pin="24"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="13" name="+HV">
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R1-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="15" name="/NIX_7_G">
+      <node ref="U3" pin="13"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="21" name="/NIX_9_G">
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="22" name="/NIX_8_G">
+      <node ref="U3" pin="15"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="23" name="/NIX_6_G">
+      <node ref="U3" pin="12"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="/NIX_5_G">
+      <node ref="U3" pin="11"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="25" name="/NIX_4_G">
+      <node ref="U3" pin="10"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="26" name="Net-(Q11-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="27" name="/NIX_DP_G">
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="28" name="/NIX_DP">
+      <node ref="Q11" pin="3"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="29" name="/#OE">
+      <node ref="J1" pin="4"/>
+      <node ref="U3" pin="23"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="30" name="/LED_DOUT">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="31" name="/LED_DIN">
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="32" name="/NIX_5">
+      <node ref="U2" pin="6"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="33" name="/NIX_0">
+      <node ref="U2" pin="11"/>
+      <node ref="Q10" pin="3"/>
+    </net>
+    <net code="34" name="/NIX_9">
+      <node ref="U2" pin="10"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="35" name="/NIX_8">
+      <node ref="Q6" pin="3"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="36" name="/NIX_7">
+      <node ref="U2" pin="8"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="37" name="/NIX_6">
+      <node ref="U2" pin="7"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="38" name="/NIX_4">
+      <node ref="U2" pin="5"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="39" name="/NIX_1">
+      <node ref="Q1" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="40" name="/NIX_2">
+      <node ref="U2" pin="3"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="41" name="/NIX_3">
+      <node ref="U2" pin="4"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="42" name="Net-(Q10-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="43" name="Net-(Q8-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="44" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="45" name="Net-(Q2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(Q9-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="47" name="Net-(Q7-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="48" name="Net-(Q5-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="49" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="50" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(Q6-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+  </nets>
+</export>
