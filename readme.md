@@ -1,4 +1,4 @@
-# nix module: mini size nixie tube driver modules
+# nix module: miniature nixie tube driver modules
 
 ## nix module(仮)
 nix moduleはニキシー管の制御に必要な部品を2x4cmの小さな基板に詰め込んだモジュールです。高圧電源の制御や煩雑なダイナミック点灯のコードを考える必要もなく、マイコンとI2Cで接続するだけでニキシー管の制御が可能です。Arduinoライブラリと組み合わせることでシンプルにニキシー管を点灯させることができます。
@@ -14,9 +14,9 @@ nix moduleはニキシー管の制御に必要な部品を2x4cmの小さな基�
 - スタティック点灯でシンプルな回路構成
 
 ## Arduino Library
-ライブラリは[こちら]()にあります。
+ライブラリは[こちら](https://github.com/minori24/Lib_Nixie_Module)にあります。
 
-使用方法については[Getting Started](doc/getting_started.md)を参照して下さい。
+使用方法は[Getting Started](doc/getting_started.md)を参照して下さい。
 
 ## Open Design
 回路図、BOM、PCB DesignをこのGithub Repoで公開しています。KiCadで自由に編集可能です。
@@ -28,3 +28,6 @@ NPN Transistor is MMBTA42
 LED is SK6812mini (WS2812B-ish 3535 serial RGB LED)
 
 PWMドライバはサーボモータの制御によく使われるPCA9685PW、RGB LEDはシリアル接続LEDの小型版なので、Arduino以外のマイコンボードやRaspberry Piによる制御も簡単に行えます。
+
+## Issue
+動作に不明点、問題などある場合はぜひ[Issue](https://github.com/minori24/NixieModule/issues)を立てて下さい。

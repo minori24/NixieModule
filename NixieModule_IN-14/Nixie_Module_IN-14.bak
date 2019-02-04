@@ -979,17 +979,6 @@ Wire Wire Line
 Text Notes 1650 5100 0    50   ~ 0
 PCA9685 must be configured as "Direct LED Connection" mode\nINVRT = 1\nOUTDRV = 0
 $Comp
-L FidgetSpinner_SK6812mini_v2-cache:SK6812mini U1
-U 1 1 5B980119
-P 2050 3750
-F 0 "U1" H 2050 3847 60  0000 C CNN
-F 1 "SK6812mini" H 2050 3741 60  0000 C CNN
-F 2 "FidgetSpinner:SK6812MINI" H 2050 3750 60  0001 C CNN
-F 3 "" H 2050 3750 60  0000 C CNN
-	1    2050 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR026
 U 1 1 5B980467
 P 1400 3800
@@ -1183,17 +1172,6 @@ F 3 "" H 2450 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connectors:Conn_01x02_Female J4
-U 1 1 5B6C02A2
-P 10650 5800
-F 0 "J4" H 10650 5950 50  0000 C CNN
-F 1 "CONN_01X02" V 10750 5800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10650 5800 50  0001 C CNN
-F 3 "" H 10650 5800 50  0001 C CNN
-	1    10650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L conn:Conn_01x02_Female J3
 U 1 1 5B6BFF15
 P 10650 5250
@@ -1205,14 +1183,36 @@ F 3 "" H 10650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connectors:Conn_01x07_Female J1
-U 1 1 5B997804
+L NixieModule:SK6812mini U?
+U 1 1 5C571FF8
+P 2050 3750
+F 0 "U?" H 2050 3847 60  0000 C CNN
+F 1 "SK6812mini" H 2050 3741 60  0000 C CNN
+F 2 "" H 2050 3750 60  0000 C CNN
+F 3 "" H 2050 3750 60  0000 C CNN
+	1    2050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x07_Female J?
+U 1 1 5C5723A7
 P 9600 5650
-F 0 "J1" H 9678 5691 50  0000 L CNN
-F 1 "CONN_01X07" H 9678 5600 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 9600 5650 50  0001 C CNN
-F 3 "" H 9600 5650 50  0001 C CNN
+F 0 "J?" H 9627 5676 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 9627 5585 50  0000 L CNN
+F 2 "" H 9600 5650 50  0001 C CNN
+F 3 "~" H 9600 5650 50  0001 C CNN
 	1    9600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x02_Female J?
+U 1 1 5C5726E4
+P 10650 5800
+F 0 "J?" H 10677 5776 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 10677 5685 50  0000 L CNN
+F 2 "" H 10650 5800 50  0001 C CNN
+F 3 "~" H 10650 5800 50  0001 C CNN
+	1    10650 5800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
