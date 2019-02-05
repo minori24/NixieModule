@@ -16,16 +16,13 @@ nix moduleはニキシー管の制御に必要な部品を2x4cmの小さな基�
 ## Arduino Library
 ライブラリは[こちら](https://github.com/minori24/Lib_Nixie_Module)にあります。
 
-使用方法は[Getting Started](doc/getting_started.md)を参照して下さい。
+
+使用方法は [Getting Started](doc/getting_started.md) および [Library Reference](doc/library_reference.md) を参照して下さい。
 
 ## Open Design
 回路図、BOM、PCB DesignをこのGithub Repoで公開しています。KiCadで自由に編集可能です。
 
-PWM Driver is PCA9685PW
-
-NPN Transistor is MMBTA42
-
-LED is SK6812mini (WS2812B-ish 3535 serial RGB LED)
+回路図(IN-12 module): [Nixie_Module_IN-12_Schematics.pdf](doc/Nixie_Module_IN-12_Schematics.pdf)
 
 PWMドライバはサーボモータの制御によく使われるPCA9685PW、RGB LEDはシリアル接続LEDの小型版なので、Arduino以外のマイコンボードやRaspberry Piによる制御も簡単に行えます。
 

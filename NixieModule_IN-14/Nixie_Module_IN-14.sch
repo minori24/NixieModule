@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5B6A64B0
 P 2550 1650
 F 0 "R1" V 2630 1650 50  0000 C CNN
-F 1 "15k" V 2550 1650 50  0000 C CNN
+F 1 "47k" V 2550 1650 50  0000 C CNN
 F 2 "R_SMD:R_0603" V 2480 1650 50  0001 C CNN
 F 3 "" H 2550 1650 50  0001 C CNN
 	1    2550 1650
@@ -213,7 +213,7 @@ I2C_SCL
 Text Label 8250 5450 0    60   ~ 0
 I2C_SDA
 $Comp
-L device:C C1
+L Device:C C1
 U 1 1 5B6B5DDE
 P 1900 5750
 F 0 "C1" H 1925 5850 50  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "" H 1900 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5B6B6351
 P 2150 5750
 F 0 "C2" H 2175 5850 50  0000 L CNN
@@ -364,7 +364,7 @@ ADDR_2
 Text Label 2900 6600 0    60   ~ 0
 ADDR_3
 $Comp
-L device:Q_NPN_BEC Q1
+L Device:Q_NPN_BEC Q1
 U 1 1 5B7F7F44
 P 4900 1700
 F 0 "Q1" H 5100 1750 50  0000 L CNN
@@ -375,7 +375,7 @@ F 3 "" H 4900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q3
+L Device:Q_NPN_BEC Q3
 U 1 1 5B7F8009
 P 6000 1700
 F 0 "Q3" H 6200 1750 50  0000 L CNN
@@ -386,7 +386,7 @@ F 3 "" H 6000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q5
+L Device:Q_NPN_BEC Q5
 U 1 1 5B7F8093
 P 7200 1700
 F 0 "Q5" H 7400 1750 50  0000 L CNN
@@ -397,7 +397,7 @@ F 3 "" H 7200 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q7
+L Device:Q_NPN_BEC Q7
 U 1 1 5B7F810D
 P 8700 1700
 F 0 "Q7" H 8900 1750 50  0000 L CNN
@@ -408,7 +408,7 @@ F 3 "" H 8700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q9
+L Device:Q_NPN_BEC Q9
 U 1 1 5B7F817C
 P 10200 1700
 F 0 "Q9" H 10400 1750 50  0000 L CNN
@@ -419,7 +419,7 @@ F 3 "" H 10200 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q2
+L Device:Q_NPN_BEC Q2
 U 1 1 5B7F82DA
 P 5650 3500
 F 0 "Q2" H 5850 3550 50  0000 L CNN
@@ -430,7 +430,7 @@ F 3 "" H 5650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q4
+L Device:Q_NPN_BEC Q4
 U 1 1 5B7F8359
 P 6900 3500
 F 0 "Q4" H 7100 3550 50  0000 L CNN
@@ -441,7 +441,7 @@ F 3 "" H 6900 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q6
+L Device:Q_NPN_BEC Q6
 U 1 1 5B7F83D9
 P 8050 3500
 F 0 "Q6" H 8250 3550 50  0000 L CNN
@@ -452,7 +452,7 @@ F 3 "" H 8050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q8
+L Device:Q_NPN_BEC Q8
 U 1 1 5B7F8458
 P 9350 3500
 F 0 "Q8" H 9550 3550 50  0000 L CNN
@@ -463,7 +463,7 @@ F 3 "" H 9350 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_BEC Q10
+L Device:Q_NPN_BEC Q10
 U 1 1 5B7F84E2
 P 10550 3500
 F 0 "Q10" H 10750 3550 50  0000 L CNN
@@ -474,7 +474,7 @@ F 3 "" H 10550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5B7FACAB
 P 4550 1700
 F 0 "R3" V 4630 1700 50  0000 C CNN
@@ -485,7 +485,7 @@ F 3 "" H 4550 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5B7FB4A4
 P 5650 1700
 F 0 "R5" V 5730 1700 50  0000 C CNN
@@ -496,7 +496,7 @@ F 3 "" H 5650 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R7
+L Device:R R7
 U 1 1 5B7FB9AA
 P 6850 1700
 F 0 "R7" V 6930 1700 50  0000 C CNN
@@ -507,7 +507,7 @@ F 3 "" H 6850 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5B7FBC40
 P 8350 1700
 F 0 "R9" V 8430 1700 50  0000 C CNN
@@ -518,7 +518,7 @@ F 3 "" H 8350 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R11
+L Device:R R11
 U 1 1 5B7FBEBB
 P 9850 1700
 F 0 "R11" V 9930 1700 50  0000 C CNN
@@ -529,7 +529,7 @@ F 3 "" H 9850 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5B7FC473
 P 5300 3500
 F 0 "R4" V 5380 3500 50  0000 C CNN
@@ -540,7 +540,7 @@ F 3 "" H 5300 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R6
+L Device:R R6
 U 1 1 5B7FC50B
 P 6550 3500
 F 0 "R6" V 6630 3500 50  0000 C CNN
@@ -551,7 +551,7 @@ F 3 "" H 6550 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 5B7FC94D
 P 7700 3500
 F 0 "R8" V 7780 3500 50  0000 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 7700 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 5B7FCB6D
 P 9000 3500
 F 0 "R10" V 9080 3500 50  0000 C CNN
@@ -573,7 +573,7 @@ F 3 "" H 9000 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 5B7FCC87
 P 10200 3500
 F 0 "R12" V 10280 3500 50  0000 C CNN
@@ -814,7 +814,7 @@ ADDR_1
 Text Label 6950 5250 0    60   ~ 0
 ADDR_0
 $Comp
-L device:R R14
+L Device:R R14
 U 1 1 5B8C85A7
 P 6550 5250
 F 0 "R14" V 6630 5250 50  0000 C CNN
@@ -846,7 +846,7 @@ Wire Wire Line
 Text Notes 6550 4900 0    50   ~ 0
 \nPC9685 Address Config Hadware Strap\nALL CALL ADDR: 0xE0\nSOFTWARE RESET ADDR: 0x06
 $Comp
-L device:R R15
+L Device:R R15
 U 1 1 5B8EB4E0
 P 6550 5450
 F 0 "R15" V 6630 5450 50  0000 C CNN
@@ -857,7 +857,7 @@ F 3 "" H 6550 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R16
+L Device:R R16
 U 1 1 5B8EB538
 P 6550 5650
 F 0 "R16" V 6630 5650 50  0000 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 6550 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R17
+L Device:R R17
 U 1 1 5B8EB592
 P 6550 5850
 F 0 "R17" V 6630 5850 50  0000 C CNN
@@ -918,7 +918,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5700 3300 5750
 $Comp
-L device:R R2
+L Device:R R2
 U 1 1 5B916675
 P 3300 5900
 F 0 "R2" V 3380 5900 50  0000 C CNN
@@ -1005,11 +1005,11 @@ Wire Wire Line
 Wire Wire Line
 	1400 3900 1400 3800
 $Comp
-L device:C C3
+L Device:C C3
 U 1 1 5B9866E4
 P 1000 4050
 F 0 "C3" H 1025 4150 50  0000 L CNN
-F 1 "47u" H 1025 3950 50  0000 L CNN
+F 1 "4.7u" H 1025 3950 50  0000 L CNN
 F 2 "C_SMD:C_0603" H 1038 3900 50  0001 C CNN
 F 3 "" H 1000 4050 50  0001 C CNN
 	1    1000 4050
@@ -1092,7 +1092,7 @@ NIX_DP_G
 Wire Wire Line
 	5050 6400 5250 6400
 $Comp
-L device:R R18
+L Device:R R18
 U 1 1 5BA01E66
 P 8750 5200
 F 0 "R18" V 8830 5200 50  0000 C CNN
@@ -1103,7 +1103,7 @@ F 3 "" H 8750 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R19
+L Device:R R19
 U 1 1 5BA0204E
 P 8900 5200
 F 0 "R19" V 8980 5200 50  0000 C CNN

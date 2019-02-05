@@ -98,6 +98,25 @@ X LED3 9 700 400 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# FidgetSpinner_SK6812mini_v2-cache_SK6812mini
+#
+DEF FidgetSpinner_SK6812mini_v2-cache_SK6812mini U 0 40 Y Y 1 F N
+F0 "U" 0 100 60 H V C CNN
+F1 "FidgetSpinner_SK6812mini_v2-cache_SK6812mini" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SK6812*
+$ENDFPLIST
+DRAW
+S -250 -100 250 -300 0 1 0 N
+X DOUT 1 550 -250 300 L 50 50 1 1 O
+X VSS 2 550 -150 300 L 50 50 1 1 W
+X DIN 3 -550 -250 300 R 50 50 1 1 I
+X VDD 4 -550 -150 300 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Jumper1_SolderJumper_2_Open
 #
 DEF Jumper1_SolderJumper_2_Open JP 0 0 Y N 1 F N
@@ -162,11 +181,11 @@ X CATHODE_3 9 200 -550 197 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Nixie_Module_IN-12-rescue_Conn_01x02_Male-conn
+# conn_Conn_01x02_Male
 #
-DEF Nixie_Module_IN-12-rescue_Conn_01x02_Male-conn J 0 40 Y N 1 F N
+DEF conn_Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Nixie_Module_IN-12-rescue_Conn_01x02_Male-conn" 0 -200 50 H V C CNN
+F1 "conn_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -185,11 +204,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Nixie_Module_IN-12-rescue_Conn_01x07_Male-conn
+# conn_Conn_01x07_Male
 #
-DEF Nixie_Module_IN-12-rescue_Conn_01x07_Male-conn J 0 40 Y N 1 F N
+DEF conn_Conn_01x07_Male J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Nixie_Module_IN-12-rescue_Conn_01x07_Male-conn" 0 -400 50 H V C CNN
+F1 "conn_Conn_01x07_Male" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -220,31 +239,6 @@ X Pin_4 4 200 0 150 L 50 50 1 1 P
 X Pin_5 5 200 -100 150 L 50 50 1 1 P
 X Pin_6 6 200 -200 150 L 50 50 1 1 P
 X Pin_7 7 200 -300 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# WS2812b_WS2812B
-#
-DEF WS2812b_WS2812B LED 0 40 Y Y 1 F N
-F0 "LED" 0 -400 60 H V C CNN
-F1 "WS2812b_WS2812B" 0 400 60 H V C CNN
-F2 "" -50 0 60 V V C CNN
-F3 "" -50 0 60 V V C CNN
-DRAW
-T 0 0 100 60 0 0 0 RGB Normal 0 C C
-S -300 300 300 -300 0 1 0 N
-S 50 50 50 -50 0 1 0 N
-P 2 0 0 0 -50 0 -150 0 N
-P 2 0 0 0 -10 -45 35 -85 N
-P 2 0 0 0 15 -105 -30 -65 N
-P 2 0 0 0 15 -105 10 -80 N
-P 2 0 0 0 35 -85 30 -60 N
-P 2 0 0 0 50 0 150 0 N
-P 5 0 1 0 50 0 -50 50 -50 -50 50 0 50 0 N
-X VCC 1 -500 200 197 R 50 50 1 1 W
-X DOUT 2 -500 -200 197 R 50 50 1 1 O
-X GND 3 500 -200 197 L 50 50 1 1 W
-X DIN 4 500 200 197 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -9,9 +9,4 @@
   (lib (name Jumper1)(type Legacy)(uri ${KIPRJMOD}/lib/libraries/Jumper.lib)(options "")(descr ""))
   (lib (name FidgetSpinner_SK6812mini_v2-cache)(type Legacy)(uri ${KIPRJMOD}/lib/libraries/FidgetSpinner_SK6812mini_v2-cache.lib)(options "")(descr ""))
   (lib (name Driver_LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_LED.lib)(options "")(descr ""))
-  (lib (name Nixie_Module_IN-12-rescue)(type Legacy)(uri ${KIPRJMOD}/Nixie_Module_IN-12-rescue.lib)(options "")(descr ""))
-<<<<<<< HEAD
-=======
-  (lib (name WS2812b)(type Legacy)(uri ${KIPRJMOD}/lib/libraries/ws2812b.lib)(options "")(descr ""))
->>>>>>> origin/master
 )

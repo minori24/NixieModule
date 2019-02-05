@@ -5,5 +5,4 @@
   (lib (name NixieKitLib)(type KiCad)(uri $KIPRJMOD/lib/modules/NixieKitLib.pretty)(options "")(descr ""))
   (lib (name Jumper)(type KiCad)(uri $KIPRJMOD/lib/modules/Jumper.pretty)(options "")(descr ""))
   (lib (name FidgetSpinner)(type KiCad)(uri $KIPRJMOD/lib/modules/FidgetSpinner.pretty)(options "")(descr ""))
-  (lib (name WS2812b)(type KiCad)(uri $KIPRJMOD/lib/modules/WS2812B.pretty)(options "")(descr ""))
 )
