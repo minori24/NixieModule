@@ -2,8 +2,7 @@
 
 ## コンストラクタと初期化
 
-コンストラクタ
-```
+```cpp
 NixieModule_IN_12 nix0 = NixieModule_IN_12(uint8_t addr);
 NixieModule_IN_14 nix1 = NixieModule_IN_14(uint8_t addr);
 ```
@@ -12,14 +11,14 @@ NixieModule_IN_14 nix1 = NixieModule_IN_14(uint8_t addr);
 モジュール裏のショートジャンパで設定したアドレスを渡します。複数のモジュールを同じバスに接続する場合にアドレスが重複しないよう注意して下さい。
 
 
-```
+```cpp
 void init()
 ```
 モジュールを初期化します。
 
 
 ## 数字の表示
-```
+```cpp
 void setNumber(uint8_t number, uint8_t step)
 ```
 
@@ -33,12 +32,12 @@ void setNumber(uint8_t number, uint8_t step)
 
 クロスフェードやシャッフル表示の場合、現在表示されている数字から新しく設定した数字に切り替わるまでのステップ数を指定します。これらのエフェクトを使用しない場合(transition mode = TMODE_NORMAL)、指定した数値に関わらず常にstep = 1です。
 
-```
+```cpp
 void update()
 ```
 `setNumber()` で指定した数字を表示します。stepで指定した回数呼び出すことでクロスフェードやシャッフルのエフェクトをかけながら数字を切り替えます。
 
-```
+```cpp
 nix0.setNumber(7, 100); //'7'を表示, 100stepで変化
 for (int i=0; i<100; i++){
     nix0.update();
@@ -48,7 +47,7 @@ for (int i=0; i<100; i++){
 数字が切り替わるスピードはstepの回数と `update()` を呼び出す間隔で決まります。`delay()`を入れて適宜調整して下さい。
 
 ## エフェクト設定
-```
+```cpp
 void setTransitionMode(uint8_t mode)
 ```
 `uint8_t mode`
@@ -62,7 +61,7 @@ void setTransitionMode(uint8_t mode)
 `TMODE_SHUFFLE` : シャッフル
 
 ## 明るさの調整
-```
+```cpp
 void setBrightness(uint8_t b)
 ```
 

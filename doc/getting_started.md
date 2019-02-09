@@ -35,8 +35,9 @@ https://qiita.com/hotchpotch/items/b9ec56266a5592cc3317
 
 ## ニキシー管のハンダ付け
 moduleにニキシー管をハンダ付けします。ニキシー管の裏側に1番ピンを示す矢印があります。moduleの1番ピンに合うように差し込んで下さい。また、IN-12はソケットピンを使用するとニキシー管の交換が楽になります。
-
 ソケットピンは最初にニキシー管の足にピンを挿してからmoduleに取り付けて下さい。
+
+![Pin](images/pin.jpg)
 
 ## Arduinoライブラリ
 [Library Reference](library_reference.md)参照
@@ -54,9 +55,9 @@ Arduinoにサンプルコードを書き込み、点灯をチェックします�
 複数のnix moduleを1つのI2Cバスで連結させる場合、モジュール裏側のジャンパをショートさせることでそれぞれ重複しないI2Cアドレスを設定する必要があります
 (オープン = '1'　ショート = '0')。
 
-![ADDR Short Jumper](images/addr.png)
+![ADDR Short Jumper](images/addr.jpg)
 
-nix moduleのアドレスはデフォルト(ジャンパのショート無し)で0x4Fです。アドレス下位4bitをジャンパで設定します。
+nix moduleのアドレスはデフォルト(ジャンパのショート無し)で**0x4F**です。アドレス下位4bitをジャンパで設定します。
 
 module 0: アドレス = 0x4F (1111, ジャンパショート無し)
 
@@ -70,7 +71,7 @@ etc...
 
 ここで設定したアドレスをArduinoのコードに書き込みます。
 
-```
+```cpp
 #include "NixieModule_IN_12.h"
 
 #include <Wire.h>
