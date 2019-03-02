@@ -72,7 +72,7 @@ etc...
 ここで設定したアドレスをArduinoのコードに書き込みます。
 
 ```cpp
-#include "NixieModule_IN_12.h"
+#include "libNixieModule.h"
 
 #include <Wire.h>
 #define ADDR0 0x4F
