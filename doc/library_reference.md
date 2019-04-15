@@ -71,7 +71,7 @@ void setBrightness(uint8_t b)
 
 
 ## I2C Command Protocol
-ライブラリを使用せず直接制御する場合のI2CコマンドはPCA9685PWのデータシートを参照して下さい。PCA9685PWの出力ピンの出力とニキシー管の接続は回路図を参照。
+ライブラリを使用せず直接制御する場合のI2CコマンドはPCA9685PWのデータシートを参照して下さい。
 
 ## RGB LED
 LEDの制御にはAdafruit NeoPixel Library等のライブラリが使えます。

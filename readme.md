@@ -13,6 +13,14 @@ nix moduleはニキシー管の制御に必要な部品を2x4cmの小さな基�
 - RGBバックライト(WS2812B互換 SK6812mini)
 - スタティック点灯でシンプルな回路構成
 
+## Project Examples
+
+IN-14 Nixie Clock
+![Clock_1](doc/images/clock_1.jpg)
+
+Nixie Watch (Credit: [@Robo_akira](https://twitter.com/Robo_akira/status/1117429584108982274))
+![Watch_1](doc/images/watch_1.jpg)
+
 ## Arduino Library
 ライブラリは[こちら](https://github.com/minori24/Lib_Nixie_Module)にあります。
 

@@ -2,4 +2,5 @@
   (lib (name russian-nixies)(type Legacy)(uri $KIPRJMOD/lib/russian-nixies/modules/russian-nixies.mod)(options "")(descr ""))
   (lib (name misc)(type KiCad)(uri $KIPRJMOD/lib/misc.pretty)(options "")(descr ""))
   (lib (name SMD)(type KiCad)(uri $KISYSMOD/Housings_QFP.pretty)(options "")(descr ""))
+  (lib (name FidgetSpinner)(type KiCad)(uri $KIPRJMOD/lib/modules/FidgetSpinner.pretty)(options "")(descr ""))
 )
