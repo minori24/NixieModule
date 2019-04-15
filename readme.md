@@ -13,14 +13,6 @@ nix moduleはニキシー管の制御に必要な部品を2x4cmの小さな基�
 - RGBバックライト(WS2812B互換 SK6812mini)
 - スタティック点灯でシンプルな回路構成
 
-## Project Examples
-
-IN-14 Nixie Clock
-![Clock_1](doc/images/clock_1.jpg)
-
-Nixie Watch (Credit: [@Robo_akira](https://twitter.com/Robo_akira/status/1117429584108982274))
-![Watch_1](doc/images/watch_1.jpg)
-
 ## Arduino Library
 ライブラリは[こちら](https://github.com/minori24/Lib_Nixie_Module)にあります。
 
@@ -36,3 +28,13 @@ PWMドライバはサーボモータの制御によく使われるPCA9685PW、RG
 
 ## Issue
 動作に不明点、問題などある場合はぜひ[Issue](https://github.com/minori24/NixieModule/issues)を立てて下さい。
+
+## Project Examples
+
+Nixie Watch (Credit: [@Robo_akira](https://twitter.com/Robo_akira/status/1117429584108982274))
+
+<img src="doc/images/watch_1.jpg" width=400>
+
+IN-14 Nixie Clock
+
+<img src="doc/images/clock_1.jpg" width=400>
