@@ -20,7 +20,7 @@ nix moduleはニキシー管の制御に必要な部品を2x4cmの小さな基�
 使用方法は [Getting Started](doc/getting_started.md) および [Library Reference](doc/library_reference.md) を参照して下さい。
 
 ## Open Design
-回路図、BOM、PCB DesignをこのGithub Repoで公開しています。KiCadで自由に編集可能です。
+回路図、BOM、PCB DesignをこのGitHub Repoで公開しています。KiCadで自由に編集可能です。
 
 回路図(IN-12 module): [Nixie_Module_IN-12_Schematics.pdf](doc/Nixie_Module_IN-12_Schematics.pdf)
 
@@ -31,7 +31,7 @@ PWMドライバはサーボモータの制御によく使われるPCA9685PW、RG
 
 ## Project Examples
 
-Nixie Watch (Credit: [@Robo_akira](https://twitter.com/Robo_akira/status/1117429584108982274))
+Nixie Watch (by [@Robo_akira](https://twitter.com/Robo_akira/status/1117429584108982274))
 
 <img src="doc/images/watch_1.jpg" width=400>
 

@@ -15,7 +15,7 @@ IN-14はサイドビュー型(管の横から数字を表示)、IN-12はトッ�
 また、IN-15A/Bのように数字ではなく記号を表示するニキシー管もあります。こちらはIN-12とピン互換のため、IN-12版nix moduleで点灯可能です(Arduinoライブラリは未対応)。
 
 ### 高圧電源
-ニキシー管を点灯させるには150 - 200Vの直流電源が必要です。多くの場合は昇圧モジュールを使いACアダプタや電池などの低圧電源を昇圧して供給します。高圧電源キットの他、MC34062を使ったDC-DCコンバータなどの作例も多くあります。
+ニキシー管を点灯させるには150 - 200V程度の直流電源が必要です。多くの場合は昇圧モジュールを使いACアダプタや電池などの低圧電源を昇圧して供給します。高圧電源キットの他、MC34062を使ったDC-DCコンバータなどの作例も多くあります。
 
 [参考]
 
@@ -34,7 +34,9 @@ https://qiita.com/hotchpotch/items/b9ec56266a5592cc3317
 
 
 ## ニキシー管のハンダ付け
-moduleにニキシー管をハンダ付けします。ニキシー管の裏側に1番ピンを示す矢印があります。moduleの1番ピンに合うように差し込んで下さい。また、IN-12はソケットピンを使用するとニキシー管の交換が楽になります。
+moduleにニキシー管をハンダ付けします。IN-14はニキシー管の裏側に1番ピンを示す矢印があります。moduleの1番ピンに合うように差し込んで下さい。IN-14は下図の上側がニキシー管の正面になります。
+
+また、IN-12はソケットピンを使用するとニキシー管の交換が楽になります。
 ソケットピンは最初にニキシー管の足にピンを挿してからmoduleに取り付けて下さい。
 
 ![Pin](images/pin.jpg)
@@ -44,7 +46,12 @@ moduleにニキシー管をハンダ付けします。ニキシー管の裏側�
 
 ## 配線
 ArduinoのI2C PinおよびLED制御用のDigital pinに接続します。
-電源は5VとGNDをArduinoに接続、module上部のピンに高圧電源の出力とそのGNDを接続します。
+電源は5VとGNDをArduinoに接続、module上部のピンに高圧電源(170 - 180V)の出力とそのGNDを接続します。
+
+Maker Faire等のイベントで電源モジュールをセットで購入された場合、5Vもしくは12Vから170Vへ昇圧するモジュールが同梱されています。高電圧が出力されるため非常に危険です。配線は確実に電源を落とした状態で行い、通電中のモジュールには絶対に触らないようご注意ください。
+
+
+
 ![Connection](images/connection_single.png)
 
 
@@ -57,7 +64,7 @@ Arduinoにサンプルコードを書き込み、点灯をチェックします�
 
 ![ADDR Short Jumper](images/addr.jpg)
 
-nix moduleのアドレスはデフォルト(ジャンパのショート無し)で**0x4F**です。アドレス下位4bitをジャンパで設定します。
+nix moduleの7bitアドレスはデフォルト(ジャンパのショート無し)で**0x4F**です。アドレス下位4bitをジャンパで設定します。
 
 module 0: アドレス = 0x4F (1111, ジャンパショート無し)
 
@@ -75,15 +82,15 @@ etc...
 #include "libNixieModule.h"
 
 #include <Wire.h>
-#define ADDR0 0x4F
+#define ADDR0 0x4F //モジュールのI2Cアドレス
 #define ADDR1 0x4E
 #define ADDR2 0x4D
 #define ADDR3 0x4C
 
-NixieModule_IN_12 nix3 = NixieModule_IN_12(ADDR0);
-NixieModule_IN_12 nix2 = NixieModule_IN_12(ADDR1);
-NixieModule_IN_12 nix1 = NixieModule_IN_12(ADDR2);
-NixieModule_IN_12 nix0 = NixieModule_IN_12(ADDR3);
+NixieModule_IN_12 nix0 = NixieModule_IN_12(ADDR0);
+NixieModule_IN_12 nix1 = NixieModule_IN_12(ADDR1);
+NixieModule_IN_12 nix2 = NixieModule_IN_12(ADDR2);
+NixieModule_IN_12 nix3 = NixieModule_IN_12(ADDR3);
 
 void setup() { 
 

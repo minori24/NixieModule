@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Nixie_Module_IN-14-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1183,10 +1183,10 @@ F 3 "" H 10650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NixieModule:SK6812mini U?
+L NixieModule:SK6812mini U1
 U 1 1 5C571FF8
 P 2050 3750
-F 0 "U?" H 2050 3847 60  0000 C CNN
+F 0 "U1" H 2050 3847 60  0000 C CNN
 F 1 "SK6812mini" H 2050 3741 60  0000 C CNN
 F 2 "" H 2050 3750 60  0000 C CNN
 F 3 "" H 2050 3750 60  0000 C CNN
@@ -1194,10 +1194,10 @@ F 3 "" H 2050 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x07_Female J?
+L conn:Conn_01x07_Female J1
 U 1 1 5C5723A7
 P 9600 5650
-F 0 "J?" H 9627 5676 50  0000 L CNN
+F 0 "J1" H 9627 5676 50  0000 L CNN
 F 1 "Conn_01x07_Female" H 9627 5585 50  0000 L CNN
 F 2 "" H 9600 5650 50  0001 C CNN
 F 3 "~" H 9600 5650 50  0001 C CNN
@@ -1205,10 +1205,10 @@ F 3 "~" H 9600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02_Female J?
+L conn:Conn_01x02_Female J2
 U 1 1 5C5726E4
 P 10650 5800
-F 0 "J?" H 10677 5776 50  0000 L CNN
+F 0 "J2" H 10677 5776 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 10677 5685 50  0000 L CNN
 F 2 "" H 10650 5800 50  0001 C CNN
 F 3 "~" H 10650 5800 50  0001 C CNN
